@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wi-Fi Light</title>
+
+  <!-- Load Material Design Light Style/Resources: https://getmdl.io/ -->
+  <link rel="stylesheet" href="./resources/mdl/material.min.css">
+  <script src="./resources/mdl/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <button id="buttonA" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                  Button A
+                </button>
+              </div>
+              <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                <button id="buttonB" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                  Button B
+                </button>
+              </div>
+            </div>
+        </div>
+    </main>
+
+<script>
+function wait(timeInSeconds) {
+  var start = Date.now();
+  var endTime = start + timeInSeconds*1000;
+  while(Date.now()<endTime);
+}
+
+var aCount = 0;
+var bCount = 0;
+document.getElementById("buttonA").addEventListener("click", function() {
+  aCount++;
+  console.log("Button A pressed " + aCount + " times!")
+})
+document.getElementById("buttonB").addEventListener("click", function() {
+  wait(2);
+  bCount++;
+  console.log("Button B pressed " + bCount + " times!")
+})
+</script>
+
+</body>
+</html>
