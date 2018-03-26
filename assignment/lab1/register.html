@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="logStyles.css">
+</head>
+<body>
+
+<h1>Register for a new account</h1>
+<div class="col-container">
+    <div class="col-3">
+        Username
+    </div>
+    <div class="col-9">
+        <input type="text" name="userid">
+    </div>
+</div>
+
+<!-- this is the div to hold password -->
+<div class="col-container">
+    <div class="col-3">
+        Password
+    </div>
+    <div class="col-6">
+        <input type="password" name="userid" id="pwdinput">
+    </div>
+
+
+
+
+    <div class="col-3">
+        <input type="checkbox" onclick="myFunction()">Show Password
+    </div>
+</div>
+
+<!--confirm password-->
+
+<div class="col-container">
+    <div class="col-3">
+        Confirm
+    </div>
+    <div class="col-6">
+        <input type="password" name="userid" id="pwdinputcf">
+    </div>
+
+    <div class="col-3">
+
+    </div>
+
+
+</div>
+
+<!-- this is the div for buttons-->
+<div class="col-container">
+
+
+    <a href="main.html" class = "button col-9">
+       Register
+    </a>
+    <div class="col-3">
+        &nbsp;
+    </div>
+
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("pwdinput");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+
+        var x = document.getElementById("pwdinputcf");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+
+</script>
+</body>
+</html>

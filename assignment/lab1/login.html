@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login to use your garage opener</title>
+    <link rel="stylesheet" href="logStyles.css">
+</head>
+
+<body style="background-color:#ade689;">
+
+<h1>Welcome to your garage door opener</h1>
+<!-- this is the div to hold username -->
+<div class="col-container">
+    <div class="col-3">
+        Username
+    </div>
+    <div class="col-9">
+    <input type="text" name="userid">
+    </div>
+</div>
+
+<!-- this is the div to hold password -->
+<div class="col-container">
+    <div class="col-3">
+        Password
+    </div>
+    <div class="col-6">
+        <input type="password" name="userid" id="pwdinput">
+    </div>
+
+    <div class="col-3">
+        <input type="checkbox" onclick="myFunction()">Show Password
+    </div>
+</div>
+
+<!-- this is the div for buttons-->
+<div class="col-container">
+
+    <a href="main.html" class = "button col-3">
+        Login
+    </a>
+    <div class="col-1">
+        &nbsp;
+    </div>
+    <a href="register.html" class = "button col-3">
+            Register
+    </a>
+    <div class="col-1">
+        &nbsp;
+    </div>
+    <a href="login.html" class = "button col-3">
+        Clear
+    </a>
+    <div class="col-1">
+        &nbsp;
+    </div>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("pwdinput");
+        if (x.type === "password") {
+             x.type = "text";
+                } else {
+             x.type = "password";
+        }
+    }
+
+</script>
+
+
+</body>
+
+
+
+
+
+</html>

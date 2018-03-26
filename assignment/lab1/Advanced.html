@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Advanced Settings</title>
+
+
+    <link rel="stylesheet" href="logStyles.css">
+</head>
+<body>
+
+
+<!-- first need a row for auto close garage door -->
+<!-- tag   checkbox   slider  input value -->
+
+<div class="col-container">
+    <div class="col-2">
+        Garage Auto Close
+    </div>
+
+    <div class="col-1">
+        <input type="checkbox" id="myCheck">
+    </div>
+
+    <div class="col-3">
+        Shut Down Time
+    </div>
+    <div class="col-6">
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+    </div>
+
+</div>
+
+<div class="col-container">
+    <!--<div class="col-3">-->
+        <!--timer-->
+    <!--</div>-->
+    <!--<div class="col-5">-->
+        <!--<div class="slidecontainer">-->
+            <!--<input type="range" min="1" max="100" value="50" class="slider" id="myRange">-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="col-3">
+       Detailed Time Selection
+    </div>
+    <div class="col-3">
+        <input type="number">
+
+    </div>
+
+    <div class="col-6">
+        <select>
+            <option value="minutes">minutes</option>
+            <option value="hours">hours</option>
+
+        </select>
+    </div>
+</div>
+
+<!-- Advanced features for lights-->
+
+
+<div class="col-container">
+    <div class="col-2">
+        Advanced light feature
+    </div>
+
+    <div class="col-1">
+        <input type="checkbox" id="myCheck2">
+    </div>
+
+    <div class="col-3">
+        Shut Down Time
+    </div>
+
+
+    <div class="col-6">
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange2">
+        </div>
+    </div>
+
+
+</div>
+
+<div class="col-container">
+    <div class="col-3">
+      Detailed Time Selector
+    </div>
+
+    <div class="col-3">
+        <input type="number">
+
+    </div>
+
+    <div class="col-6">
+        <select>
+            <option value="minutes">minutes</option>
+            <option value="hours">hours</option>
+
+        </select>
+    </div>
+
+</div>
+
+<div class="col-container">
+    <div class="col-3">
+        brightness selector
+    </div>
+
+    <div class="col-9">
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange3">
+        </div>
+    </div>
+</div>
+
+
+<div class="col-container">
+    <div class="col-3">
+        Back To Main
+    </div>
+
+        <a href="main.html" class = "button col-9">
+            Main
+        </a>
+
+</div>
+</body>
+</html>

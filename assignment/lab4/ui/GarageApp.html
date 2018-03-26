@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./resources/particle/particle.min.js"></script>
+    <script src="Garage.js"></script>
+    <script src="GarageApp.js"></script>
+
+
+    <title>Advanced Settings</title>
+    <link rel="stylesheet" type="text/css" href="logStyles.css">
+</head>
+<body>
+
+<div class="page" id="loginPg">   <!-- this is the div for login page-->
+
+    <h1>Welcome to your garage door opener</h1>
+    <!-- this is the div to hold username -->
+    <div class="col-container">
+        <div class="col-3">
+            Username
+        </div>
+        <div class="col-9">
+            <input type="text" name="userid">
+        </div>
+    </div>
+
+    <!-- this is the div to hold password -->
+    <div class="col-container">
+        <div class="col-3">
+            Password
+        </div>
+        <div class="col-6">
+            <input type="password" name="userid" id="pwdinput">
+        </div>
+
+        <div class="col-3">
+            <input type="checkbox" onclick="showPwd()">Show Password
+        </div>
+    </div>
+
+    <!-- this is the div for buttons-->
+    <div class="col-container">
+
+        <button class = "button col-3" id = "login_button">
+            Login
+        </button>
+
+        <div class="col-1">
+            &nbsp;
+        </div>
+
+        <button class = "button col-3" id = "register_button">
+            Register
+        </button>
+        <div class="col-1">
+            &nbsp;
+        </div>
+        <button class = "button col-3" id = "clear_button">
+            Clear
+        </button>
+        <div class="col-1">
+            &nbsp;
+        </div>
+    </div>
+
+
+</div>   <!-- ending of the login div -->
+
+<!-- beginning of register div -->
+<div class = 'page' id = "registerPg" >
+
+    <h1>Register for a new account</h1>
+    <div class="col-container">
+        <div class="col-3">
+            Username
+        </div>
+        <div class="col-9">
+            <input type="text" name="userid">
+        </div>
+    </div>
+
+    <!-- this is the div to hold password -->
+    <div class="col-container">
+        <div class="col-3">
+            Password
+        </div>
+        <div class="col-6">
+            <input type="password" name="userid" id="pwdinput_reg">
+        </div>
+
+
+
+
+        <div class="col-3">
+            <input type="checkbox" onclick="showPwd()">Show Password
+        </div>
+    </div>
+
+    <!--confirm password-->
+
+    <div class="col-container">
+        <div class="col-3">
+            Confirm
+        </div>
+        <div class="col-6">
+            <input type="password" name="userid" id="pwdinputcf">
+        </div>
+
+        <div class="col-3">
+
+        </div>
+
+
+    </div>
+
+    <!-- this is the div for buttons-->
+    <div class="col-container">
+
+
+        <button class = "button col-4" id = "register_button_reg">
+            Register
+        </button>
+        <div class="col-2">
+            &nbsp;
+        </div>
+        <button class = "button col-4" id = "cancel_button_reg">
+            Cancel
+        </button>
+        <div class="col-2">
+            &nbsp;
+        </div>
+
+    </div>
+
+</div>  <!-- ending for register class-->
+
+
+<!-- beginning for main page -->
+
+<div id = "loading">
+    Loading
+</div>
+<div id="allControls">
+    <div class = 'page' id = "mainPg" >
+        <!-- door status -->
+
+        <div class="col-container">
+            <div class="col-3">
+                Current Garage Door Status
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+            <div class="col-3">
+                <!-- can also use color to indicate door status-->
+                <textarea id = "doorStatus"> placeholder for door status </textarea>
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+
+            <!-- use an indicator to show if the door is currently moving -->
+            <!--<div class="col-3 boxborder">&nbsp;</div>-->
+
+            <!-- this is a button to change garage door status-->
+            <div class="col-3">
+                <button type="button" class="button" id = "changeDoor">
+                    change
+                </button>
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+        </div>
+
+
+
+        <div class="col-container">
+            <div class="col-3">
+                Current Garage light Status
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+            <div class="col-3">
+                <!-- can also use color to indicate door status-->
+                <textarea id = "lightStatus"> placeholder for light status </textarea>
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+
+            <!--<div class="col-3 boxborder">&nbsp;</div>-->
+
+            <div class="col-3">
+                <button type="button" class="button" id = "changeLight">
+                    switch
+                </button>
+            </div>
+            <div class="col-1">
+                &nbsp;
+            </div>
+
+        </div>
+
+
+        <!-- the row for advanced setting or log out button-->
+
+        <div class="col-container">
+            <button class = "button col-4" id = "advanced_button">
+                Advanced
+            </button>
+            <div class="col-2">
+                &nbsp;
+            </div>
+            <button class = "button col-4" id = "logout_button">
+                Logout
+            </button>
+            <div class="col-2">
+                &nbsp;
+            </div>
+        </div>
+    </div>    <!-- ending for main page class-->
+</div>
+
+<!-- beginning for advanced function class -->
+<div class = 'page' id = "advancedPg" >
+
+    <!-- first need a row for auto close garage door -->
+    <!-- tag   checkbox   slider  input value -->
+
+    <div class="col-container">
+        <div class="col-2">
+            Garage Auto Close
+        </div>
+
+        <div class="col-1">
+            <input type="checkbox" id="garageAutoClose">
+        </div>
+
+        <div class="col-3">
+            Shut Down Time
+        </div>
+        <div class="col-6">
+            <div class="slidecontainer">
+                <input type="range" min="5" max="60" value="50" class="slider" id="garageShutTime">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-container">
+        <!--<div class="col-3">-->
+        <!--timer-->
+        <!--</div>-->
+        <!--<div class="col-5">-->
+        <!--<div class="slidecontainer">-->
+        <!--<input type="range" min="1" max="100" value="50" class="slider" id="myRange">-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="col-3">
+            Detailed Time Selection
+        </div>
+        <div class="col-3">
+            <input type="number" id = "garageTimeDetailed" min="5" max="60">
+
+        </div>
+
+        <!--<div class="col-6">-->
+        <!--<select>-->
+        <!--<option value="minutes">minutes</option>-->
+        <!--<option value="hours">hours</option>-->
+
+        <!--</select>-->
+        <!--</div>-->
+
+        <div class = "col-6">
+            seconds
+        </div>
+    </div>
+
+    <!-- Advanced features for lights-->
+
+
+    <div class="col-container">
+        <div class="col-2">
+            Advanced light feature
+        </div>
+
+        <div class="col-1">
+            <input type="checkbox" id="lightAuto">
+        </div>
+
+        <div class="col-3">
+            Shut Down Time
+        </div>
+
+
+        <div class="col-6">
+            <div class="slidecontainer">
+                <input type="range" min="1" max="60" value="50" class="slider" id="lightShutTime">
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="col-container">
+        <div class="col-3">
+            Detailed Time Selector
+        </div>
+
+        <div class="col-3">
+            <input type="number" id="lightDetailedTime" min="1" max="60">
+
+        </div>
+
+        <!--<div class="col-6">-->
+        <!--<select>-->
+        <!--<option value="minutes">minutes</option>-->
+        <!--<option value="hours">hours</option>-->
+
+        <!--</select>-->
+        <!--</div>-->
+
+        <div class = "col-6">
+            seconds
+        </div>
+
+    </div>
+
+    <div class="col-container">
+        <div class="col-3">
+            brightness selector
+        </div>
+
+        <div class="col-9">
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="brightnessRange">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-container">
+        <div class="col-2">
+            Submit
+        </div>
+        <div class="col-1">
+            &nbsp;
+        </div>
+
+        <button class = "button col-3" id = "submitAdvanced">
+            Submit
+        </button>
+        <div class="col-1">
+            &nbsp;
+        </div>
+        <div class="col-2">
+            Back To Main
+        </div>
+
+        <button class = "button col-3" id = "advanced_to_main">
+            Main
+        </button>
+
+    </div>
+</div>  <!--ending for advanced feature div-->
+
+
+
+</body>
+</html>
