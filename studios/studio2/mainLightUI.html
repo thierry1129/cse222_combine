@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wi-Fi Light</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- This uses the 12 column box model described at https://www.w3schools.com/css/css_rwd_grid.asp
+     The total columns in each row should be 12.  (I.e. all the col-x in a div should add to 12) -->
+
+ <div class="col-container"> <!-- Row for Current color -->
+   <div class="col-9">
+     Current Color
+   </div>
+   <div class="col-3 boxborder" style="background:red;"><!-- Place holder to show color --></div>
+ </div>
+
+ <div class="col-container"> <!-- Row for Current color -->
+   <div class="col-9">
+     Target Color
+   </div>
+   <div class="col-3 boxborder"><!-- Place holder to show color --></div>
+ </div>
+
+ <div class="col-container"> <!-- Row for Red Slider -->
+   <div class="col-3">
+     Red
+   </div>
+   <div class="col-9"><input type="range" min=0 max=100 class="full-width"></div>
+ </div>
+
+ <div class="col-container"> <!-- Row for Green Slider -->
+   <div class="col-3">
+     Green
+   </div>
+   <div class="col-9"><input type="range" min=0 max=100 class="full-width"></div>
+ </div>
+
+ <div class="col-container"> <!-- Row for Blue Slider -->
+   <div class="col-3">
+     Blue
+   </div>
+   <div class="col-9"><input type="range" min=0 max=100 class="full-width">
+ </div>
+</div>
+</body>
+</html>
