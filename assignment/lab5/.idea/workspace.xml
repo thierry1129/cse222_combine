@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="550101e3-9302-472a-abb6-dad0f7f21e34" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GarageHardwareProxy.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareProxy.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3060">
+              <caret line="204" selection-start-line="204" selection-end-line="204" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GarageHardwareReal.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareReal.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6300">
+              <caret line="420" column="6" selection-start-line="420" selection-start-column="6" selection-end-line="420" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GarageController.ino" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GarageController/src/GarageController.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5700">
+              <caret line="380" column="1" selection-start-line="380" selection-start-column="1" selection-end-line="380" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Garage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/Garage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2895">
+              <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GarageRemote.ino" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GarageRemote/src/GarageRemote.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2715">
+              <caret line="181" column="20" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GarageApp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/GarageApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3870">
+              <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GarageController/project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GarageApp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/GarageApp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4995">
+              <caret line="333" selection-start-line="333" selection-end-line="333" />
+              <folding>
+                <element signature="e#1401#1407#0" expanded="true" />
+                <element signature="e#1566#1572#0" expanded="true" />
+                <element signature="e#1724#1730#0" expanded="true" />
+                <element signature="e#3008#3014#0" expanded="true" />
+                <element signature="e#3172#3178#0" expanded="true" />
+                <element signature="e#3596#3602#0" expanded="true" />
+                <element signature="e#3873#3879#0" expanded="true" />
+                <element signature="e#4330#4336#0" expanded="true" />
+                <element signature="e#4553#4559#0" expanded="true" />
+                <element signature="e#4832#4838#0" expanded="true" />
+                <element signature="e#5146#5152#0" expanded="true" />
+                <element signature="e#5452#5458#0" expanded="true" />
+                <element signature="e#5636#5642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GarageModelTestStub.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/GarageModelTestStub.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fadeLight</find>
+      <find>dimLightTimer</find>
+      <find>setDoorAutoClose</find>
+      <find>changelightst</find>
+      <find>submitDoor</find>
+      <find>stopDimLightTimer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GarageRemote/src/GarageRemote.ino" />
+        <option value="$PROJECT_DIR$/GarageController/src/GarageController.ino" />
+        <option value="$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardware.h" />
+        <option value="$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareReal.cpp" />
+        <option value="$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareProxy.cpp" />
+        <option value="$PROJECT_DIR$/ui/GarageApp.html" />
+        <option value="$PROJECT_DIR$/ui/Garage.js" />
+        <option value="$PROJECT_DIR$/ui/GarageApp.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="95" />
+    <option name="y" value="23" />
+    <option name="width" value="1418" />
+    <option name="height" value="927" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="documentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageController" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageController" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageHardware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageController" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageHardware" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageRemote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageRemote" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="GarageRemote" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment-05-terry_lyu_a5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment-05-terry_lyu_a5" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.GarageApp.html (1)">
+    <configuration name="GarageApp.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/assignment-05-terry_lyu_a5/ui/GarageApp.html" />
+    <configuration name="GarageApp.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/assignment-05-terry_lyu_a5/ui/GarageApp.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.GarageApp.html" />
+      <item itemvalue="JavaScript Debug.GarageApp.html (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.GarageApp.html (1)" />
+        <item itemvalue="JavaScript Debug.GarageApp.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="550101e3-9302-472a-abb6-dad0f7f21e34" name="Default" comment="" />
+      <created>1522529303155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522529303155</updated>
+      <workItem from="1522529306409" duration="17423000" />
+      <workItem from="1522869526032" duration="759000" />
+      <workItem from="1522877020677" duration="2107000" />
+      <workItem from="1522964939289" duration="1532000" />
+      <workItem from="1522980861576" duration="368000" />
+    </task>
+    <task id="LOCAL-00001" summary="js light autooff finished">
+      <created>1522551485826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522551485826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial c timer setup">
+      <created>1522551943871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522551943871</updated>
+    </task>
+    <task id="LOCAL-00003" summary="light auto off completed">
+      <created>1522555289137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522555289137</updated>
+    </task>
+    <task id="LOCAL-00004" summary="light auto off completed">
+      <created>1522981605646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522981605647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22189000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="95" y="23" width="1418" height="927" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976552" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="js light autooff finished" />
+    <MESSAGE value="initial c timer setup" />
+    <MESSAGE value="light auto off completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="light auto off completed" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareReal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="420" column="6" selection-start-line="420" selection-start-column="6" selection-end-line="420" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/src/GarageController.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="380" column="1" lean-forward="true" selection-start-line="380" selection-start-column="1" selection-end-line="380" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/Garage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="193" column="37" lean-forward="true" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageRemote/src/GarageRemote.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="181" column="20" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3870">
+          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4995">
+          <caret line="333" lean-forward="true" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#1401#1407#0" expanded="true" />
+            <element signature="e#1566#1572#0" expanded="true" />
+            <element signature="e#1724#1730#0" expanded="true" />
+            <element signature="e#3008#3014#0" expanded="true" />
+            <element signature="e#3172#3178#0" expanded="true" />
+            <element signature="e#3596#3602#0" expanded="true" />
+            <element signature="e#3873#3879#0" expanded="true" />
+            <element signature="e#4330#4336#0" expanded="true" />
+            <element signature="e#4553#4559#0" expanded="true" />
+            <element signature="e#4832#4838#0" expanded="true" />
+            <element signature="e#5146#5152#0" expanded="true" />
+            <element signature="e#5452#5458#0" expanded="true" />
+            <element signature="e#5636#5642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageModelTestStub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareReal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="420" column="6" selection-start-line="420" selection-start-column="6" selection-end-line="420" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/src/GarageController.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5235">
+          <caret line="349" column="1" lean-forward="true" selection-start-line="349" selection-start-column="1" selection-end-line="349" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/Garage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3105">
+          <caret line="207" column="32" lean-forward="true" selection-start-line="207" selection-start-column="32" selection-end-line="207" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageRemote/src/GarageRemote.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="181" column="20" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4995">
+          <caret line="333" lean-forward="true" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#1401#1407#0" expanded="true" />
+            <element signature="e#1566#1572#0" expanded="true" />
+            <element signature="e#1724#1730#0" expanded="true" />
+            <element signature="e#3008#3014#0" expanded="true" />
+            <element signature="e#3172#3178#0" expanded="true" />
+            <element signature="e#3596#3602#0" expanded="true" />
+            <element signature="e#3873#3879#0" expanded="true" />
+            <element signature="e#4330#4336#0" expanded="true" />
+            <element signature="e#4553#4559#0" expanded="true" />
+            <element signature="e#4832#4838#0" expanded="true" />
+            <element signature="e#5146#5152#0" expanded="true" />
+            <element signature="e#5452#5458#0" expanded="true" />
+            <element signature="e#5636#5642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageModelTestStub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardware.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="2" lean-forward="true" selection-start-line="118" selection-start-column="2" selection-end-line="118" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3870">
+          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" column="86" selection-start-line="184" selection-start-column="86" selection-end-line="184" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/src/GarageController.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageRemote/src/GarageRemote.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="181" column="20" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="194" column="52" selection-start-line="194" selection-start-column="52" selection-end-line="194" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5115">
+          <caret line="341" column="66" selection-start-line="341" selection-start-column="66" selection-end-line="341" selection-end-column="66" />
+          <folding>
+            <element signature="e#1401#1407#0" expanded="true" />
+            <element signature="e#1566#1572#0" expanded="true" />
+            <element signature="e#1724#1730#0" expanded="true" />
+            <element signature="e#3008#3014#0" expanded="true" />
+            <element signature="e#3172#3178#0" expanded="true" />
+            <element signature="e#3596#3602#0" expanded="true" />
+            <element signature="e#3873#3879#0" expanded="true" />
+            <element signature="e#4330#4336#0" expanded="true" />
+            <element signature="e#4553#4559#0" expanded="true" />
+            <element signature="e#4832#4838#0" expanded="true" />
+            <element signature="e#5146#5152#0" expanded="true" />
+            <element signature="e#5452#5458#0" expanded="true" />
+            <element signature="e#5636#5642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageModelTestStub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardware.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/Garage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="133" column="53" lean-forward="true" selection-start-line="133" selection-start-column="53" selection-end-line="133" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" column="86" lean-forward="true" selection-start-line="184" selection-start-column="86" selection-end-line="184" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/src/GarageController.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageRemote/src/GarageRemote.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="20" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="186" column="1" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5505">
+          <caret line="367" column="17" selection-start-line="367" selection-start-column="17" selection-end-line="367" selection-end-column="17" />
+          <folding>
+            <element signature="e#1401#1407#0" expanded="true" />
+            <element signature="e#1566#1572#0" expanded="true" />
+            <element signature="e#1724#1730#0" expanded="true" />
+            <element signature="e#3008#3014#0" expanded="true" />
+            <element signature="e#3172#3178#0" expanded="true" />
+            <element signature="e#3596#3602#0" expanded="true" />
+            <element signature="e#3873#3879#0" expanded="true" />
+            <element signature="e#4330#4336#0" expanded="true" />
+            <element signature="e#4553#4559#0" expanded="true" />
+            <element signature="e#4832#4838#0" expanded="true" />
+            <element signature="e#5146#5152#0" expanded="true" />
+            <element signature="e#5452#5458#0" expanded="true" />
+            <element signature="e#5636#5642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageModelTestStub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardware.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/Garage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="127" column="36" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardware.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="2" lean-forward="true" selection-start-line="118" selection-start-column="2" selection-end-line="118" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/src/GarageController.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5700">
+          <caret line="380" column="1" selection-start-line="380" selection-start-column="1" selection-end-line="380" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageRemote/src/GarageRemote.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2715">
+          <caret line="181" column="20" selection-start-line="181" selection-start-column="20" selection-end-line="181" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareReal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6300">
+          <caret line="420" column="6" selection-start-line="420" selection-start-column="6" selection-end-line="420" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/lib/GarageHardware/src/GarageHardwareProxy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/Garage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4995">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#1401#1407#0" expanded="true" />
+            <element signature="e#1566#1572#0" expanded="true" />
+            <element signature="e#1724#1730#0" expanded="true" />
+            <element signature="e#3008#3014#0" expanded="true" />
+            <element signature="e#3172#3178#0" expanded="true" />
+            <element signature="e#3596#3602#0" expanded="true" />
+            <element signature="e#3873#3879#0" expanded="true" />
+            <element signature="e#4330#4336#0" expanded="true" />
+            <element signature="e#4553#4559#0" expanded="true" />
+            <element signature="e#4832#4838#0" expanded="true" />
+            <element signature="e#5146#5152#0" expanded="true" />
+            <element signature="e#5452#5458#0" expanded="true" />
+            <element signature="e#5636#5642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageModelTestStub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/GarageApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3870">
+          <caret line="258" lean-forward="true" selection-start-line="258" selection-end-line="258" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GarageController/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
